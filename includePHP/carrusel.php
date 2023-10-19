@@ -8,10 +8,9 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p  class="experiencia fs-5 fw-medium text-primary text-uppercase animated slideInRight text-white">25 Years
-                                        of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Leaders in Electronic Security Engineering</h1>
-                                    <a href="" class="botonslider2 btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <p  class="experiencia fs-5 fw-medium text-primary text-uppercase animated slideInRight text-white"> +20 años de experiencia en seguridad electrónica</p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Proyectos De Seguridad e Ingeniería</h1>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -23,10 +22,9 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight text-white">20 Years
-                                        of Working Experience</p>
-                                    <h1 class="display-2 text-white mb-5 animated slideInRight">Leaders in Electronic Security Engineering</h1>
-                                    <a href="" class="botonslider btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight text-white">20 años de experiencia en seguridad electrónica</p>
+                                    <h1 class="display-2 text-white mb-5 animated slideInRight">Innovación <br>  Tecnológica e IA</h1>
+                                    <a href="" class="botonslider btn btn-primary py-3 px-5 animated slideInRight flipSide-360">Explore More</a>
                                 </div>
                             </div>
                         </div>

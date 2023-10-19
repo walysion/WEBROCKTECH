@@ -35,6 +35,10 @@
                 <img class="img-fluid" src="img\socios\dji.png" alt="">
             
             </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="img\socios\genetec.png" alt="">
+            
+            </a>
         </div>
     </div>
     <!-- Project End -->

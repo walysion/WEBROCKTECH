@@ -109,8 +109,242 @@ h6,
     background-color: var(--primary);
 }
 
+/** nuevo navbar **/
 
-/*** Navbar ***/
+
+
+
+.redes-sociales{
+    position: relative;
+    margin-left: 11px;
+}
+
+
+@media(min-width:1530px){
+
+    .redes-sociales{
+        position: relative;
+        margin-left: 22px;
+    }
+    
+
+}
+
+
+
+
+              
+      
+
+
+.header{
+    background-color: #001639;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding:  15px 5%;
+    
+    
+    
+}
+
+
+.header nav{
+    position: relative;
+    left: 200px;
+    top: 7px;
+}
+
+
+@media(min-width:1379px){
+  
+    .header nav{
+        position: relative;
+        left: -120px;
+        top: 7px;
+    }
+
+}
+
+
+@media(max-width:1278px){
+  
+    .header nav{
+        position: relative;
+        left: -80px;
+        top: 7px;
+    }
+
+}
+
+.header .logo img{
+height: 30px;
+width: auto;
+transition: all 0.3s;
+
+}
+
+
+.nav-links li a{
+    color: white !important;
+    
+    
+    
+}
+
+
+.nav-links li a:hover{
+    color: rgb(5, 136, 129) !important;
+}
+
+
+
+.header .logo{
+    cursor: pointer;
+}
+
+
+.header .logo img:hover{
+
+transform: scale(1.2);
+}
+
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.header.nav-links a{
+    font-size: 700;
+    color: #B0B9AE !important;
+    
+
+}
+
+.header .nav-links li:hover{    
+    transform: scale(1.1);
+
+}
+
+
+.header .nav-links li a:hover{
+    color: #5F656F;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+
+.header .overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 160;
+    left: 0;
+    top: 0;
+    background-color: #000032;
+    opacity: 0.98;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+
+/**inicio boton de hamburguesa **/
+
+
+.haburguesados{
+    position: relative;
+    top: 200px;
+    color: #14f7ff;
+    
+}
+
+
+
+
+/**fin boton de hamburguesa**/
+
+
+
+
+@media screen and (max-width: 900px){
+
+    .nav-links, .btn{
+        display: none;
+    }
+
+    .menu{
+        display: inherit;
+    }
+
+}
+
+
+.header .overlay .overlay-content{
+
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.header .overlay a{
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    color: #dddddd;
+}
+
+.header .overlay a:hover,
+.header .overlay a:focus{
+    color: rgb(4, 139, 192);
+}
+
+.header .overlay .close{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 65px;
+}
+
+
+@media screen and (max-height:450px){
+
+    .header .overlay a{
+        font-size: 20px;
+    }
+
+    .header .overlay .close{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+}
+
+/** fin nuevo navbar **/
+
+
+
+
+
+
+
+/*** Navbar 
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -468,7 +702,29 @@ h6,
 .service-item .btn:hover {
     color: #FFFFFF;
     background: var(--primary);
+    
+    
 }
+
+
+
+.flipUp-360{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.flipUp-360:hover{
+    transform: rotateX(360deg);
+        -webkit-transform: rotateX(360deg);
+        -moz-transform: rotateX(360deg);
+}
+
+
+
+
+
+
+/** fin de seccion servicios **/
 
 
 /*** Project ***/
@@ -646,6 +902,8 @@ h6,
 .testimonial-carousel .testimonial-img img {
     width: 100px;
     height: 100px;
+
+    
 }
 
 .testimonial-carousel .testimonial-img .btn-square {
@@ -786,11 +1044,33 @@ background-image: url(../img/controldeacceso.jpg);
 
 /**  -------------------------------------------------sistema de vuelo no tripulado------------------------------------------------------------------------- **/
 
+
+.droneeeee{
+    z-index: 99;
+}
+
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+   
+    
+}
+
+
 .tituloTres{
     font-size: 55px;
 }
 
 
+@media(min-width:1616px){
+
+.sistemaDeVueloNoTripuladoExploreMore{
+    display: none;
+}
+
+}
 
 .parrafosistema{
 
@@ -799,7 +1079,7 @@ background-image: url(../img/controldeacceso.jpg);
 }
 
 
-@media(max-width:1000px){
+@media(max-width:1200px){
 
     .breveHistoria{
 
@@ -810,17 +1090,57 @@ background-image: url(../img/controldeacceso.jpg);
 }
 
 
-@media(max-width:1250px){
+@media(max-width:1200px){
 
     .breveHistoria{
 
         position: relative;
         display: none;
-        margin-top: 1px;
+        margin-top: -70px;
     }
  
 
 }
+
+@media(min-width:450px){
+    .PrimerVueloExitosoresponsivo{
+
+        display: none;
+
+    
+    }
+     
+
+
+    
+    
+}
+
+
+@media(max-width:500px){
+
+.primerVueloExitosocolor{
+
+    background-color: #00a1a9;
+    color: white !important;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+}
+
+@media(max-width:1467px){
+.breveHistoria{
+    margin-top: -240px;
+}
+}
+
+@media(max-width:1252px){
+    .breveHistoria{
+        margin-top: -300px;
+    }
+    }
+
 
 
 @media(min-width:1600px){
@@ -828,7 +1148,7 @@ background-image: url(../img/controldeacceso.jpg);
     .breveHistoria{
 
         
-        margin-top: 100px;
+        margin-top: 50px;
     }
  
 
@@ -840,27 +1160,45 @@ background-image: url(../img/controldeacceso.jpg);
     .breveHistoria{
 
         
-        margin-top: 140px;
+        margin-top: 240px;
     }
  
 
 }
 
-@media(max-width:1450px){
 
-    .dronnoche{
-   
-        filter :blur(10px)
-    
+@media(min-width:1800px){
+
+    .breveHistoria{
+
+        
+        margin-top: 250px;
     }
+ 
+
 }
+
+@media(min-width:2160px){
+
+    .breveHistoria{
+
+        
+        margin-top: 550px;
+    }
+ 
+
+}
+
+
+
+
 
 
 .primerVueloExitoso{
     color: #dddddd;
 }
 
-@media(max-width:1250px){
+@media(max-width:1200px){
 
 .primerVueloExitoso{
     display: none;
@@ -870,8 +1208,14 @@ background-image: url(../img/controldeacceso.jpg);
 
 
 .enRocktech{
+    position: relative;
+    margin-top: 30px;
+}
 
-     
+
+.enRocktech{
+    color: white;
+    
 }
 
 @media(max-width:700px){
@@ -882,7 +1226,49 @@ background-image: url(../img/controldeacceso.jpg);
     }
 }
 
-@media(max-width:1100px){
+
+@media(min-width:1700px){
+
+    .enRocktech{
+        position: relative;
+        top: 200px;
+        
+    }
+}
+
+@media(max-width:500px){
+
+    .enRocktech{
+        position: relative;
+        top: 200px;
+        
+    }
+}
+
+
+
+@media(max-width:500px){
+
+    .quepreviene{
+        position: relative;
+        top: -50px;
+        
+    }
+}
+
+
+
+@media(min-width:1700px){
+
+    .quepreviene{
+        position: relative;
+        top: 200px;
+        
+    }
+}
+
+
+@media(max-width:1300px){
 
     .enRocktech{
         color: white;
@@ -948,20 +1334,63 @@ margin-left: 60px;
 
 
 .sistemaDeVueloNoTripulado{
-    position:absolute;
-    top: 120px;
-    
+   
+    display: flex;   
+    animation-name:sistemaDeVuelo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 
 
 
 }
 
-.sistemaDeVueloNoTripuladoExploreMore{
 
-    position:absolute;
+@media(min-width:1780px){
+
+    .sistemaDeVueloNoTripulado{
+        position: relative;
+        right: 200px;
+        top: -200px;
+    }
+}
+
+.sistemaDeVueloNoTripuladoExploreMore{
+   
+    position: relative;
     top: 400px;
     left: 150px;
+   
 
+}
+
+
+@media(min-width:500px){
+
+    .sistemaDeVueloNoTripuladoExploreMore{
+
+        display: none;
+
+        
+    }
+
+}
+
+@keyframes sistemaDeVuelo{
+
+    0%{
+        color: #ffffff;
+    }
+    30%{
+        color: #ffffff;
+    }
+    50%{
+        color: #001542;
+    
+    }
+
+    100%{
+        color: #ffffff;
+    }
 }
 
 
@@ -996,23 +1425,14 @@ margin-left: 60px;
 
 
 
-@media (max-width: 876px) {
 
-    .sistemaDeVueloNoTripuladoImagen{
-    
-     
-        filter: blur(2px);
-    }
-    
-    
-    }
 
 
 @media (max-width: 876px){
 
        .sistemaDeVueloNoTripulado{
-        position:absolute;
-        top: 120px;
+        
+        
         text-align: center;
         
     
@@ -1115,8 +1535,10 @@ margin-left: 60px;
 
 /** -----------------------------layaout  fin control de acceso --------------------------   **/
 
+.incendio:hover{
 
-
+    background-color: #14f7ff !important;
+}
 
 
 
@@ -1196,7 +1618,29 @@ justify-content: center;
 
 
 
+.videoMantenimiento{
+    max-width: 100%;
 
+    
+}
 
 
 /**  Servicio de mantenimiento termino  **/
+
+
+
+
+
+
+
+
+/** inicio Acerca de**/
+
+
+.year-of-expierience{
+
+    background-color: #008fa9 !important;
+}
+
+
+/** fin Acerca de**/

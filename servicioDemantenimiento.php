@@ -25,6 +25,7 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,76 +33,230 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="sistemanotripuladobody">
+ 
 
-<?php
-include 'includePHP\giratorio.php';
-include 'includePHP\barrasuperior.php';
-include 'includePHP\navbar.php';
-?>
-    <!-- Inicio Carrusel -->
-    <div class="container-fluid px-0 mb-5">
+    <?php
+    include 'includePHP\giratorio.php';
+    include 'includePHP\barrasuperior.php';
+    include 'includePHP\navbar.php';
+    
+    
+    ?>
+
+<div id="particles-js">
+
+</div>
+        <!-- Inicio Carrusel -->
+        <div class="container-fluid px-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img\mantenimiento.png" alt="Image">
+                    <img class="w-100 sistemaDeVueloNoTripuladoImagen" src="img\serviciodemantenimientowallpaper.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10 text-start">
-                                    <p  class="experiencia fs-5 fw-medium text-primary text-uppercase animated slideInRight text-white">25 Years
-                                        of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight col-lg-2">Servicio de Mantenimiento</h1>
-                                    <a href="" class="botonslider2 btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                            <div class="row d-flex align-items-start flex-column">
+                                <div  class="col-lg-8 text-start">
+                                    <h1 class="display-1 mb-5 animated slideInRight sistemaDeVueloNoTripulado col-lg-8 text-center"><br><br><br> <span class="typed"></span></h1>
+                                
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-primary text-uppercase animated slideInRight text-white">20 Years
-                                        of Working Experience</p>
-                                    <h1 class="display-2 text-white mb-5 animated slideInRight">Leaders in Electronic Security Engineering</h1>
-                                    <a href="" class="botonslider btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          
+            
+            
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </div>
+    </div>
     <!-- Fin Carrusel -->
+   <br>
+   <br>
+   <br>
+   <br>
 
-  
+    <div class="container">
+        <div  class="row">
+          <h1  class="text-center slideInRight">¿Por qué es importante un servicio de mantenimiento?</h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="card mb-12" style="max-width: 1540px;">
+  <div class="row g-0">
+    <div class="col-md-6 ">
+      <img src="img\mantenimientoo.jpg" class="img-fluid rounded-start droneeeee" alt="...">
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <p class="card-text"><strong style="color:#02245b;font-size:17px;">1-Prolongación de la vida útil:</strong> Un mantenimiento regular y adecuado puede ayudar a extender la vida útil de un activo. Esto significa que se obtiene un mayor rendimiento y valor de la inversión a lo largo del tiempo. <br><br>
+        <strong style="color:#02245b;font-size:17px;">2-Sostenibilidad:</strong> El mantenimiento adecuado de activos y equipos puede contribuir a la sostenibilidad al reducir la necesidad de reemplazarlos con frecuencia y al disminuir el impacto ambiental. <br><br>
+        <strong style="color:#02245b;font-size:17px;">3-Seguridad:</strong> En muchos casos, el mantenimiento es crucial para garantizar la seguridad de las personas y el entorno. Por ejemplo, en la industria, un mantenimiento deficiente puede llevar a accidentes graves.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+        
+    <br><br><br><br><br>
+    <br><br><br><br><br>
 
 
 
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="js\sistema-de-mantenimiento.js"></script>
+
+<script src="js\particles.min.js"></script>
+   <script>
+    particlesJS(
+       
+{
+  "particles": {
+    "number": {
+      "value": 30,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "2a5990"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#2a5990",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+} 
+    )
+   </script>
+
+    
+    <?php
 
 
-<?php
+      include 'includePHP\libreriajavascript.php';
+      include 'includePHP\footer.php';
+      include 'includePHP\copyright.php';
+    
+    ?>
 
 
-include 'includePHP\footer.php';
-include 'includePHP\copyright.php';
-include 'includePHP\volverarriba.php';
-include 'includePHP\libreriajavascript.php';
 
-?>
-
+    
 </body>
 
 </html>
+
+
+
+
+   
+
+    
+    
+
+    

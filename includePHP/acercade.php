@@ -13,45 +13,45 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p  class="fw-medium text-uppercase text-primary mb-2 text-dark ">About Us</p>
-                    <h1 class="display-5 mb-4">Líderes en Ingenieria en Seguridad Electronica</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    <p  class="fw-medium text-uppercase text-primary mb-2 text-dark ">Sobre Nosotros</p>
+                    <h1 style="font-size: 40px;" class="display-5 mb-4">ROCKTECH, SECURITY & ENGINEERING SOLUTIONS</h1>
+                    <p class="mb-4">Nos dedicamos a proporcionar a nuestros clientes las soluciones más avanzadas e innovadoras en seguridad y tecnología de comunicaciones. Trabajamos en colaboración con ellos para generar mejoras significativas en sus procesos operativos.
                     </p>
                     <div class="d-flex align-items-center mb-4">
-                        <div class="flex-shrink-0 bg-primary p-4">
+                        <div  class="flex-shrink-0 bg-primary p-4 year-of-expierience">
                             <h1 class="display-2 text-white">25</h1>
-                            <h5 class="text-white">Years of</h5>
-                            <h5 class="text-white">Experience</h5>
+                            <h5 style="background-color: #008fa9 !important;" class="text-white">Años de Experiencia</h5>
+                            <h5 class="text-white">Experiencia</h5>
                         </div>
                         <div class="ms-4">
-                            <p><i class="fa fa-check text-primary me-2"></i>Power & Energy</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Civil Engineering</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Electrical Engineering</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Mechanical Engineering</p>
-                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Oil & Gas Engineering</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>ENERGÍA</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>RETAIL</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>TRÁFICO VEHICULAR</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>CONSTRUCCIÓN</p>
+                           
                         </div>
                     </div>
                     <div class="row pt-2">
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <div style="background-color: #008fa9 !important;" class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                     <i class="fa fa-envelope-open text-white"></i>
                                 </div>
-                                <div class="ms-3">
-                                    <p class="mb-2">Email us</p>
+                                <div  class="ms-3">
+                                    <p class="mb-2">Contáctanos</p>
                                     <h5 class="mb-0">info@rocktechla.com</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                <div style="background-color: #008fa9 !important;" class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
                                     <i class="fa fa-phone-alt text-white"></i>
                                 </div>
                                 <div class="ms-3">
                                     <p class="mb-2">Contacto</p>
-                                    <h5 class="mb-0">+012 345 6789</h5>
+                                    <h5 class="mb-0">+569 7125 6011  <br>  +569 5690 4528</h5>
+                                    
                                 </div>
                             </div>
                         </div>

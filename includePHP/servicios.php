@@ -2,7 +2,7 @@
 <div class="container-xxl py-5">
         <div id="servicio" class="container">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
+                <p style="color: #008fa9 !important;" class="fw-medium text-uppercase text-primary mb-2">Nuestros Servicios</p>
                 <h1 class="display-5 mb-4">Soluciones</h1>
             </div>
             <div class="row gy-5 gx-4">
@@ -17,10 +17,10 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">El circuito cerrado de televisión es una tecnología de videovigilancia diseñada para supervisar una diversidad de ambientes y actividades</p>
+                                <p class="text-white mb-0"> La tecnología de videovigilancia diseñada para supervisar una diversidad de ambientes y actividades</p>
                             </div>
                         </div>
-                        <a style="width:200px" class="btn btn-light" href="cctv.php">CCTV</a>
+                        <a style="width:200px; height:60px; background-color:#008fa9;color:white;border-radius: 5px;overflow:hidden" class="btn btn-light incendio" href="cctv.php"><span>CCTV</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -34,10 +34,10 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">El control de acceso consiste en la verificación de si una entidad solicitando acceso a un recurso tiene los derechos necesarios para hacerlo.​</p>
+                                <p class="text-white mb-0">El control de acceso consiste en la verificación de si una entidad solicitando acceso a un recurso tiene los derechos necesarios.​</p>
                             </div>
                         </div>
-                        <a style="width:200px" class="btn btn-light" href="controldeacceso.php">Control de Acceso</a>
+                        <a style="width:200px;height:60px; background-color:#008fa9;color:white;border-radius: 5px;overflow:hidden" class="btn btn-light incendio" href="controldeacceso.php">Control de Acceso</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
@@ -51,10 +51,10 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">El sistema de alarmas breve transmite la información necesaria de manera clara y rápida para que las personas puedan tomar medidas adecuadas sin perder tiempo en detalles innecesarios.</p>
+                                <p class="text-white mb-0">El sistema de alarmas breve transmite la información necesaria de manera clara y rápidas.</p>
                             </div>
                         </div>
-                        <a style="width:200px" class="btn btn-light" href="">Sistema de Alarma</a>
+                        <a style="width:200px; height:60px; background-color:#008fa9;color:white;border-radius: 5px;overflow:hidden" class="btn btn-light incendio" href="sistema-de-alarmas.php"><span style="z-index:2;transition: .3s ease all;">Sistema de Alarma</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
@@ -68,10 +68,11 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">Cuando estos sensores detectan signos de incendio, activan alarmas audibles o visuales para alertar a las personas y permitir una respuesta rápida para evitar daños y salvar vidas.</p>
+                                <p class="text-white mb-0">
+                                    Activación alarmas para alertar a las personas y permitir una respuesta rápida</p>
                             </div>
                         </div>
-                        <a style="width:200px" class="btn btn-light" href="">Deteccion de Incendios</a>
+                        <a style="width:200px;height:60px; background-color:#008fa9;color:white;border-radius: 5px; overflow:hidden" class="btn btn-light incendio" href="deteccion-de-incedios.php">Deteccion de Incendios</a>
                     </div>
                 </div>
             </div>
@@ -92,10 +93,10 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">Estos sistemas pueden realizar tareas automatizadas o controladas de manera remota, como drones que vuelan sin piloto.</p>
+                                <p class="text-white mb-0">Estos sistemas pueden realizar tareas automatizadas o controladas de manera remota.</p>
                             </div>
                         </div>
-                        <a style="width:200px" class="btn btn-light" href="sistemadevuelonotripulado.php">Sistema de Vuelo no tripulado</a>
+                        <a style="width:200px;height:60px; background-color:#008fa9;color:white;border-radius: 5px;overflow:hidden" class="btn btn-light incendio" href="sistemadevuelonotripulado.php">Sistema de Vuelo no tripulado</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -112,7 +113,7 @@
                                 <p class="text-white mb-0">tecnologías diseñadas para operar en la tierra sin la necesidad de intervención humana directa.</p>
                             </div>
                         </div>
-                        <a style="width:200px" class="btn btn-light" href="">Sistema de monitoreo terrestre no tripulado</a>
+                        <a style="width:200px;height:60px; background-color:#008fa9;color:white;border-radius: 5px;overflow:hidden" class="btn btn-light incendio" href="terrestre-notripulado.php">Sistema de monitoreo terrestre no tripulado</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
@@ -126,10 +127,10 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0"> Su objetivo es prolongar la vida útil de los activos, prevenir fallas y garantizar un rendimiento eficiente a lo largo del tiempo.</p>
+                                <p class="text-white mb-0"> Su objetivo es prolongar la vida útil de los activos, prevenir fallas y garantizar un máximo rendimiento.</p>
                             </div>
                         </div>
-                        <a style="width:200px" class="btn btn-light" href="servicioDemantenimiento.php">Servicio de mantenimiento</a>
+                        <a style="width:200px; height:60px; background-color:#008fa9;color:white;border-radius: 5px;overflow:hidden" class="btn btn-light incendio" href="servicioDemantenimiento.php">Servicio de mantenimiento</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.5s">
@@ -143,10 +144,10 @@
                                 <hr class="w-25">
                             </div>
                             <div class="service-text">
-                                <p class="text-white mb-0">infraestructura diseñada para observar y seguir de cerca ciertas actividades, procesos o condiciones. Utiliza sensores, cámaras u otros dispositivos </p>
+                                <p class="text-white mb-0">infraestructura diseñada para observar y seguir de cerca ciertas actividades, procesos o condiciones. </p>
                             </div>
                         </div>
-                        <a style="width:200px" class="btn btn-light" href="">Servicio de Monitoreo</a>
+                        <a style="width:200px;height:60px; background-color:#008fa9;color:white;border-radius: 5px;overflow:hidden" class="btn btn-light incendio" href="serviciodemonitoreo.php">Servicio de Monitoreo</a>
                     </div>
                 </div>
 

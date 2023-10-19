@@ -69,15 +69,15 @@
     </div>
 
     <div class="card mb-3">
-  <img class="imagenteamrocktech" src="img\equiporocktech.png" class="card-img-top" alt="Foto equipo Rocktech">
+  <img class="imagenteamrocktech"  src="img\equiporocktech.png" class="card-img-top" alt="Foto equipo Rocktech">
+  <br><br><br>
   <div class="card-body">
-    <h5 class="card-title aboutTeamRocktech">Team Rocktech</h5>
+    <h5 style="font-size: 40px;" class="card-title aboutTeamRocktech">Team Rocktech</h5>
     <p class="card-text aboutTeamRocktechParrafo">
-    Empresa formada por profesionales en las disciplinas de electrónica e informática con más de 20 años de experiencia en las áreas de seguridad electrónica y telecomunicaciones, con múltiples certificaciones en estas áreas.​
+    Empresa formada por profesionales en las disciplinas de electrónica e informática con más de 20 años de experiencia en las áreas de seguridad electrónica y telecomunicaciones, con múltiples certificaciones en estas áreas.​<br>
     Dentro de las competencias de la compañía se encuentran soluciones de integración de sistemas, lectura de placa patente, reconocimiento facial y soluciones térmicas, entre otros.​
     Destaca la capacidad de integración multidisciplinaria permitiendo entregar soluciones integrales a sus clientes abordando proyectos en su etapa de diseño, montaje y puesta en marcha.</p>
-    
-  </div>
+    <br><br><br><br><br><br>
 </div>
 
     

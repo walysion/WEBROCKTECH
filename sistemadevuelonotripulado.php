@@ -25,6 +25,7 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,6 +34,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="sistemanotripuladobody">
+ 
 
     <?php
     include 'includePHP\giratorio.php';
@@ -41,6 +43,10 @@
     
     
     ?>
+
+<div id="particles-js">
+
+</div>
         <!-- Inicio Carrusel -->
         <div class="container-fluid px-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -51,8 +57,8 @@
                         <div class="container">
                             <div class="row d-flex align-items-start flex-column">
                                 <div  class="col-lg-8 text-start">
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight sistemaDeVueloNoTripulado col-lg-6">Sistema de vuelo no tripulado</h1>
-                                    <a href="" class="botonslider2 btn btn-primary py-3 px-5 animated slideInRight sistemaDeVueloNoTripuladoExploreMore">Explore More</a>
+                                    <h1 class="display-1 mb-5 animated slideInRight sistemaDeVueloNoTripulado col-lg-8 text-center"><br><br><br> <span class="typed"></span></h1>
+                                
                                 </div>
                             </div>
                         </div>
@@ -90,8 +96,8 @@
         <br>
         <div class="card mb-12" style="max-width: 1540px;">
   <div class="row g-0">
-    <div class="col-md-6">
-      <img src="img\drone.jpg" class="img-fluid rounded-start" alt="...">
+    <div class="col-md-6 ">
+      <img src="img\drone.jpg" class="img-fluid rounded-start droneeeee" alt="...">
     </div>
     <div class="col-md-6">
       <div class="card-body">
@@ -108,17 +114,22 @@
     <br><br><br><br><br>
 
     <div class="card text-bg-dark">
-  <img src="img\dronenocherocktech.jpg" class="card-img dronnoche" alt="...">
+  <img src="img\dronenocherocktechprueba.png" class="card-img dronnoche" alt="...">
   
   <div class="card-img-overlay">
-  <br><br><br><br>
-    <h1 class="card-title text-white text-center animated slideInRight">¿Qué previene un vuelo Semi-Autónomo?</h1><br><br>
+  <br><br><br><br><br><br><br>
+    <h1 class="card-title text-white text-center animated slideInRight quepreviene">¿Qué previene un vuelo Semi-Autónomo?</h1><br><br>
     <p class="card-text col-md-12 text-center enRocktech animated slideInRight">En ROCKTECH unificamos la identificación de peligro y evaluación de riesgos, tanto en la seguridad operacional como en la seguridad ocupacional. 
     Peligros de trabajadores al desplazarse ya sea al interior de plantas de difícil acceso, como en desplazamientos entre puntos Minimiza el riesgo de exposición 
 de los trabajadores a consecuencias asociadas a bajas o altas temperaturas como: radiación UV, deshidratación, hipotermia, entre otras… UN VUELO SEMI-AUTÓNOMO? Minimiza
  tiempos de acción Evita accidentes laborales por desconocimiento del lugar de trabajo Minimiza el riesgo de factores humanos por no seguimiento de protocolos y procedimientos 
 Maximiza los recursos: reducción de horas hombre, reducción de costos por movilización y hospedaje, permite distribuir los recursos en mejor tecnología</p>
 <br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+
 <br><br><br><br><br>
 <h1 class="card-title text-white text-center breveHistoria animated slideInRight">Breve historia de la aviación no tripulada</h1><br><br>
 <p class="card-text text-center primerVueloExitoso animated slideInRight">El primer vuelo exitoso de una aeronave sin piloto se produjo en 1917, cuando Peter Cooper y
@@ -137,11 +148,136 @@ realizando entre 1964 y 1975 34.000 misiones de observación con unos mil aparat
 </div>
 </div>
 
+<div class="card">
+  <div class="card-body PrimerVueloExitosoresponsivo">
+  <p style="color: black;" class="card-text text-center primerVueloExitosocolor animated slideInRight">En ROCKTECH unificamos la identificación de peligro y evaluación de riesgos, tanto en la seguridad operacional como en la seguridad ocupacional. 
+    Peligros de trabajadores al desplazarse ya sea al interior de plantas de difícil acceso, como en desplazamientos entre puntos Minimiza el riesgo de exposición 
+de los trabajadores a consecuencias asociadas a bajas o altas temperaturas como: radiación UV, deshidratación, hipotermia, entre otras… UN VUELO SEMI-AUTÓNOMO? Minimiza
+ tiempos de acción Evita accidentes laborales por desconocimiento del lugar de trabajo Minimiza el riesgo de factores humanos por no seguimiento de protocolos y procedimientos 
+Maximiza los recursos: reducción de horas hombre, reducción de costos por movilización y hospedaje, permite distribuir los recursos en mejor tecnología</p>
+  </div>
+</div>
 
 
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="js\mainletra.js"></script>
 
-
-
+<script src="js\particles.min.js"></script>
+   <script>
+    particlesJS(
+       
+{
+  "particles": {
+    "number": {
+      "value": 30,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "2a5990"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#2a5990",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+} 
+    )
+   </script>
 
     
     <?php
@@ -154,8 +290,6 @@ realizando entre 1964 y 1975 34.000 misiones de observación con unos mil aparat
     ?>
 
 
-
-    
 
     
 </body>
