@@ -36,9 +36,9 @@
  
 
     <?php
-    include '/var/www/html/includePHP/giratorio.php';
-    include '/var/www/html/includePHP/barrasuperior.php';
-    include '/var/www/html/includePHP/navbar.php';
+    include('/var/www/html/includePHP/giratorio.php');
+    include('/var/www/html/includePHP/barrasuperior.php');
+    include('/var/www/html/includePHP/navbar.php');
     
     
     ?>
