@@ -37,9 +37,9 @@
  
 
     <?php
-    include 'includePHP\giratorio.php';
-    include 'includePHP\barrasuperior.php';
-    include 'includePHP\navbar.php';
+    include('/var/www/html/includePHP/giratorio.php');
+    include('/var/www/html/includePHP/barrasuperior.php');
+    include('/var/www/html/includePHP/navbar.php');
     
     
     ?>
@@ -238,9 +238,10 @@
     <?php
 
 
-      include 'includePHP\libreriajavascript.php';
-      include 'includePHP\footer.php';
-      include 'includePHP\copyright.php';
+include('/var/www/html/includePHP/giratorio.php');
+include('/var/www/html/includePHP/barrasuperior.php');
+include('/var/www/html/includePHP/navbar.php');
+
     
     ?>
 

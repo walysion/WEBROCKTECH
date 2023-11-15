@@ -46,8 +46,8 @@
 
 
    <?php
-     include 'includePHP\barrasuperior.php';
-     include 'includePHP\navbar.php';
+     include('/var/www/html/includePHP/barrasuperior.php');
+     include('/var/www/html/includePHP/navbar.php');
 
    ?>
 
@@ -108,8 +108,8 @@
 <?php
 
 
-include 'includePHP\footer.php';
-include 'includePHP\copyright.php';
+include('/var/www/html/includePHP/footer.php');
+include('/var/www/html/includePHP/copyright.php');
 
 ?>
 

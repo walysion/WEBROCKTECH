@@ -1,28 +1,28 @@
 <?php
 
-include 'includePHP\head.php';
+include '/var/www/html/includePHP/head.php';
 
 ?>
 
 
 <?php
 
-include 'includePHP\giratorio.php';
-include 'includePHP\barrasuperior.php';
-include 'includePHP\navbar.php';
-include 'includePHP\carrusel.php';
-include 'includePHP\acercade.php';
-include 'includePHP\iniciodeloshechos.php';
-include 'includePHP\caracteristicasdeinicio.php';
-include 'includePHP\videmodal.php';
-include 'includePHP\servicios.php';
-include 'includePHP\proyectos.php';
-include 'includePHP\team.php';
-include 'includePHP\socios.php';
-include 'includePHP\footer.php';
-include 'includePHP\copyright.php';
-include 'includePHP\volverarriba.php';
-include 'includePHP\libreriajavascript.php';
+include('/var/www/html/includePHP/giratorio.php');
+include('/var/www/html/includePHP/barrasuperior.php');
+include('/var/www/html/includePHP/navbar.php');
+include('/var/www/html/includePHP/carrusel.php');
+include('/var/www/html/includePHP/acercade.php');
+include('/var/www/html/includePHP/iniciodeloshechos.php');
+include('/var/www/html/includePHP/caracteristicasdeinicio.php');
+include('/var/www/html/includePHP/videmodal.php');
+include('/var/www/html/includePHP/servicios.php');
+include('/var/www/html/includePHP/proyectos.php');
+include('/var/www/html/includePHP/team.php');
+include('/var/www/html/includePHP/socios.php');
+include('/var/www/html/includePHP/footer.php');
+include('/var/www/html/includePHP/copyright.php');
+include('/var/www/html/includePHP/volverarriba.php');
+include('/var/www/html/includePHP/libreriajavascript.php');
 
 
 
